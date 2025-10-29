@@ -1,0 +1,51 @@
+#skillInput {
+    display: inline-block;
+    width: 60%;
+}
+
+#skillsList {
+    list-style-type: none;
+    padding-left: 0;
+    max-width: 400px;
+    margin: 10px auto 0 auto;
+}
+
+#skillsList li {
+    background-color: #f8f9fa;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Project card adjustments */
+#projectsContainer .card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#projectsContainer .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Resume download count styling */
+#downloadCount {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Adjust Skill Add button spacing */
+#addSkillBtn {
+    vertical-align: top;
+}
+
+/* Ensure main cards have consistent height */
+.card.h-100 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body {
+    background-color: darkgreen;
+}
